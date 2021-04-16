@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "description": "Dragon ball",
+      "path": "./images/dbz.jpg"
+    },
+    {
+      "description": "One Piece law",
+      "path": "./images/law.jpg"
+    },
+    {
+      "description": "One Piece Luffy",
+      "path": "./images/luffy.png"
+    },
+    {
+      "description": "Naruto",
+      "path": "./images/itachi.jpg"
+    }
+  ]
+}

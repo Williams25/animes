@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
-
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -17,8 +16,8 @@ const theme = {
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
