@@ -1,30 +1,25 @@
 import styled from 'styled-components'
-import { images } from '../images.json'
-import SliderItem from '../src/components/Slider'
+import { CardItems } from '../src/components/CardItems'
 
 const Container = styled.section`
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   div {
-    width: 100%;
-    margin: 1rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 `
 
 export default function Home() {
-
   return (
     <Container>
-      <div>
-        <SliderItem images={images} />
-
-        <SliderItem images={images} />
-      </div>
+      <CardItems />
     </Container>
   )
 }
