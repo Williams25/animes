@@ -83,9 +83,9 @@ const SliderItemSelection = styled.div`
   z-index: 5;
 
   span {
-    margin: 1rem;
-    width: 1rem;
-    height: 1rem;
+    margin: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
     border: 0.13rem solid #fff;
     border-radius: 1rem;
     cursor: pointer;
@@ -95,8 +95,9 @@ const SliderItemSelection = styled.div`
     align-items: center;
   }
   span div {
-    width: 0.7rem;
-    height: 0.7rem;
+    margin: 1px;
+    width: 0.4rem;
+    height: 0.4rem;
     border-radius: 1rem;
     cursor: pointer;
   }
